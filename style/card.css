@@ -1,0 +1,97 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 400px;
+  padding: 32px 16px;
+  background-color: #fff;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card__name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3a4a4f;
+  width: 238px;
+  align-self: center;
+  margin: 0;
+  word-wrap: break-word;
+}
+.card__img {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+/*для больших карточек */
+.one {
+  background-image: url("../img/01.png");
+}
+.two {
+  background-image: url("../img/02.png");
+}
+.free {
+  background-image: url("../img/03.png");
+}
+.four {
+  background-image: url("../img/04.png");
+}
+/*для маленьких карточек */
+.card-small {
+  width: 270px;
+  height: 169px;
+  margin: 0;
+  padding: 32px 9px 16px 16px;
+}
+.size {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+  margin: 0;
+  object-fit: cover;
+}
+.one-small {
+  background-image: url("../img/01-small.png");
+}
+.two-small {
+  background-image: url("../img/02-small.png");
+}
+.free-small {
+  background-image: url("../img/03-small.png");
+}
+.four-small {
+  background-image: url("../img/04-small.png");
+}
+.five-small {
+  background-image: url("../img/05-small.png");
+}
+.card-small-position{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.six-small {
+  width: 20px;
+  height: 16px;
+  align-self: center;
+  margin: 0;
+  object-fit: cover;
+  background-image: url("../img/Vector.svg");
+  cursor: pointer;
+}

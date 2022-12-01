@@ -1,0 +1,30 @@
+.block {
+  max-width: 1920px;
+  background-color: #f1ebeb;
+  padding: 15px 0;
+}
+.block__equipment {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.block__others-equipment {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.block-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* column-gap: 30px;
+    row-gap: 15px; */
+    /* justify-content: s; */
+    gap: 30px;
+}
